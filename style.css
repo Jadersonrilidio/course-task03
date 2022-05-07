@@ -1,0 +1,56 @@
+html {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+body {
+    width: 700px;
+    height: 400px;
+    margin: 100px auto;
+    padding: 30px;
+    background-color: rgb(50, 61, 58);
+    border-radius: 10px;
+}
+
+#form {
+    text-align: center;
+    display: block;
+}
+
+#form h1 {
+    color: white;
+    display: block;
+}
+
+#form input {
+    width: 100%;
+    height: 40px;
+    margin: 20px 0;
+    text-indent: 2em;
+    font-size: 1.1em;
+}
+
+#form button {
+    margin: 30px auto;
+    width: 90%;
+    line-height: 50px;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+.status-msg {
+    line-height: 40px;
+    display: block;
+    font-size: 1.1em;
+    text-align: center;
+    background-color: rgba(245, 245, 245, 0.7);
+}
+
+.error-msg {
+    color: red;
+}
+
+.success-msg {
+    color: greenyellow;
+}
